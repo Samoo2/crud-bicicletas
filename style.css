@@ -1,0 +1,128 @@
+body {
+    background-image: url('landscape.gif');
+    background-repeat: repeat;
+    background-size: cover;
+  }
+    .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  th {
+    background-color: #BFE6FF;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover td {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #BFE6FF;
+    color: #333;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9DD5FF;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  input[type="submit"], input[type="button"] {
+    background-color: #BFE6FF;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: rgb(255, 253, 253);
+  }  
+  
+  form {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+  form.formstyle {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  form.formstyle label {
+    margin-bottom: 10px;
+  }
+  
+  form.formstyle input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  form.formstyle button[type="submit"] {
+    padding: 10px 20px;
+    background-color:  #9DD5FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form.formstyle button[type="submit"]:hover {
+    background-color:  #9DD5FF;
+  }
+
+
+  
+  
